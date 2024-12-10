@@ -4,6 +4,11 @@
     {
       "source": "/deft/:match*",
       "destination": "https://deft-blocks.vercel.app/:match*"
+    },
+    { "source": "/", "destination": "https://tobypenner.vercel.app/" },
+    {
+      "source": "/:match*",
+      "destination": "https://tobypenner.vercel.app/:match*"
     }
   ]
 }
