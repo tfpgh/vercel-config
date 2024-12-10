@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/deft/", "destination": "https://deft-blocks.vercel.app/" },
+    {
+      "source": "/deft/:match*",
+      "destination": "https://deft-blocks.vercel.app/:match*"
+    }
+  ]
+}
